@@ -5,23 +5,37 @@
     <title>Breakdown</title>
     <link href="css\stylesheet.css" rel="stylesheet"></link>
     <script src="js\script.js"></script>
+
+    <div class="the-top">
+      <img src="C:\Sites\breakdown4.0\images\breakdown-nav-logo.png" alt="Breakdown Logo" id="logo">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">My Account</button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">Settings</a>
+          <a href="#">Sign Out</a>
+        </div>
+      </div>
+      <!-- Begin navigation -->
+      <div class="navbar">
+        <a href="#">My Projects</a>
+        <a href="#">Calendar View</a>
+      </div>
+      <!-- End navigation -->
+
+      <!-- Search bar (currently hidden) -->
+      <input id="search" type="text" placeholder="Search My Projects...">
+    </div>
   </head>
 
   <body>
-    <div id="navBar">
-      <div class="nav">
-        <li class="button-dropdown">
-          <a href="javascript:void(0)" class="dropdown-toggle">My Account</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">My Projects</a></li>
-          </ul>
-        </li>
-      </div>
+    <div class="the-middle">
+      This is the middle of the page
     </div>
-    <div>
   </body>
 
   <footer>
-
+    <div class="the-bottom">
+      This is the footer section
+    </div>
   </footer>
 </html>
